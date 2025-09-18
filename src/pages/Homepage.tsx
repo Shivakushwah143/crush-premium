@@ -95,7 +95,7 @@ const Homepage: React.FC = () => {
                 className="group"
               >
                 <Link to={category.href}>
-                  <div className="w-full h-60 w-60 rounded-full overflow-hidden shadow-lg border-4 border-transparent group-hover:border-[#FFD93D] transition-all duration-300 mx-auto max-w-xs">
+                  <div className=" h-60 w-60 rounded-full overflow-hidden shadow-lg border-4 border-transparent group-hover:border-[#FFD93D] transition-all duration-300 mx-auto max-w-xs">
                     <img
                       src={category.image}
                       alt={category.name}
